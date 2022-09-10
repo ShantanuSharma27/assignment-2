@@ -1,0 +1,15 @@
+import java.util.*;
+public class attendance
+{
+public static void main(String[] args)
+{
+int nca,nch;
+Scanner sc= new Scanner(System.in);
+System.out.println("Enter the number of classes you have attended :");
+nca=sc.nextInt();
+System.out.println("Enter the number of classes of held :");
+nch=sc.nextInt();
+double per=(nch/nca)*0.1;
+System.out.println(per);
+}
+}
